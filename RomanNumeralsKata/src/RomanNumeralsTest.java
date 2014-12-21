@@ -1,0 +1,23 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+/**
+ * 
+ *
+ *  The symbols 'I', 'X', 'C', and 'M' can be repeated at most 3 times in a row. 'V', 'L', and 'D' can never be repeated.
+ *  As arabic numbers can be split into their constituent parts (1066 becomes 1 0 6 6), so too can Roman numerals, just without the zero (1066 becomes MLXVI, or M (1000) LX (60) and VI (6)).
+ *  The '1' symbols ('I', 'X', and 'C') can only be subtracted from the 2 next highest values ('IV' and 'IX', 'XL' and 'XC', 'CD' and 'CM'). The '5' symbols ('V', 'L', and 'D') can never be subtracted.
+ *  Only one subtraction can be made per numeral ('XC' is allowed, 'XXC' is not).
+ *
+ * @author amri
+ *
+ */
+public class RomanNumeralsTest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}
